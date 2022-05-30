@@ -4,8 +4,172 @@
     box-sizing: border-box;
 }
 
+body {
+
+    
+}
+
+header {
+
+    
+}
+
+.leader {
+
+    color: white;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+   
+    
+}
+
 .top-bar {
 
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    align-items: center;
+    clear: both;
+    background-color: #285cec;
+    min-height: 60px;
 }
+
+.top-bar img {
+
+    width: max-content;
+}
+
+/* CARATTERI */
+
+header ul {
+
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: 12px;
+}
+
+header ul li {
+
+    padding-left: 25px;
+}
+
+.leader h2 {
+
+    padding-bottom: 20px;
+}
+
+.leader .btn {
+
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+p {
+
+    font-size: 12px;
+}
+
+/* CARATTERI */
+
+.btn {
+
+    border-radius: 20px;
+    border: none;
+    font-size: 11px;
+    padding: 8px 13px
+
+}
+
+.btnblack {
+
+    background-color: black;
+    color: white;
+}
+
+
+.pre-section1 {
+
+    background-color: white;
+    min-height: 100px;
+}
+
+.pre-section2 {
+
+    background-color: #f8f4f4;
+    min-height: 100px;
+}
+
+footer {
+
+    background-color: #28242c;
+    min-height: 200px;
+}
+
+h2 {
+
+    font-family: 'Roboto', sans-serif;    
+}
+
+.section1, .section2 {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}
+
+.section1 img, .section2 img {
+
+    width: 50%;
+}
+
+.content {
+
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    width: 60%;
+}
+
+.section3 {
+
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+h3 {
+
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    
+}
+
+.section3 .btn {
+
+    background-color: #285cec;
+    color: white;
+}
+
+nav {
+
+    display: flex;
+    justify-content: space-around;
+    color: white;
+
+}
+
+
