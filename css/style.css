@@ -22,7 +22,28 @@
     margin-bottom: 10px;
     display: flex;
     align-items: center;
+
+
     
+}
+
+.logo {
+
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.links {
+
+    display: flex;
+    justify-content: center;
+}
+
+.login {
+
+    display: flex;
+    justify-content: flex-end;
 }
 
 .leader {
