@@ -7,7 +7,7 @@
 
 .top-bar {
 
-    background-color: aqua;
+    background-color: #285cec;
     display: flex;
     justify-content: center;
     min-height: 60px;
@@ -15,9 +15,7 @@
 
 .top {
 
-    background-color: orange;
     width: 25%;
-    border: dotted 3px black;
     margin-top: 10px;
     margin-bottom: 10px;
     display: flex;
@@ -37,18 +35,22 @@
 .links {
 
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .login {
 
     display: flex;
     justify-content: flex-end;
+
 }
+
 
 .leader {
 
-    background-color: blue;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
     min-height: 400px;
     display: flex;
     justify-content: center;
@@ -56,12 +58,14 @@
 
 }
 
-.leader .content {
+.leader .pre-content {
 
-    background-color: pink;
-    border: 3px dotted black;
+
     min-height: 300px;
     width: 80%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
 }
 
 .sectionA , .sectionB {
@@ -168,3 +172,47 @@ hr {
     background-color: black;
     padding: 10px;
 }
+
+
+a:link {
+
+    color: white;
+    text-decoration: none;
+}
+
+.btn {
+
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 12px;
+}
+
+.black {
+
+    color: white;
+    background-color: black;
+}
+
+.post-content {
+
+    text-align: center;
+    color: white;
+    
+}
+
+.post-content h1 {
+
+    margin-bottom: 20px;
+}
+
+.post-content p {
+
+    margin-bottom: 20px;
+}
+
+.post-content .btn {
+
+    margin-left: 10px;
+}
+
